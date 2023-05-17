@@ -36,6 +36,6 @@ https.get(url,(response)=>{
 
 */
 
-app.listen(3000,()=>{
+app.listen(process.env.PORT||3000,()=>{
      console.log("listening the port 3000");
 })
